@@ -7,10 +7,10 @@ const Work = () => {
         <div className='py-20 px-[5%]'>
             <h2 className='font-bold '>My latest work</h2>
             <div className='flex flex-col items-center lg:flex-row gap-6'>
-                <Image src={assets.work_1} className='w-50 h-50' />
-                <Image src={assets.work_2} className='w-50 h-50' />
-                <Image src={assets.work_3} className='w-50 h-50' />
-                <Image src={assets.work_4} className='w-50 h-50' />
+                <Image src={assets.work_1} alt="" className='w-50 h-50' />
+                <Image src={assets.work_2} alt="" className='w-50 h-50' />
+                <Image src={assets.work_3} alt="" className='w-50 h-50' />
+                <Image src={assets.work_4} alt="" className='w-50 h-50' />
             </div>
         </div>
     )
