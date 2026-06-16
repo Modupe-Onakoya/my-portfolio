@@ -9,7 +9,9 @@ import work_3 from './work-3.png'
 import work_4 from './work-4.png'
 import header_bg_color from './header-bg-color.png'
 import send_icon from './send-icon.png'
-
+import linkedin from './linkedin.png'
+import github from './github.png'
+import email from './email.png'
 
 export const assets = {
     moon_icon,
@@ -22,7 +24,7 @@ export const assets = {
     work_3,
     work_4,
     header_bg_color,
-    send_icon
+    send_icon, linkedin, email, github
 }
 
 export const workData = [
@@ -46,4 +48,6 @@ export const workData = [
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
     },
+
 ]
+

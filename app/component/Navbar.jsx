@@ -42,11 +42,11 @@ const Navbar = () => {
                     <div onClick={closeMenu} >
                         <Image src={assets.close_black} className='w-4 absolute top-7 right-6 cursor-pointer' alt='' />
                     </div>
-                    <li onClick={closeMenu} className='cursor-pointer'><a href="#home" className='text-xl '></a>Home</li>
-                    <li onClick={closeMenu} className='cursor-pointer'><a href="#about" className='text-xl '></a>About me </li>
-                    <li onClick={closeMenu} className='cursor-pointer'><a href="#skilss" className='text-xl'> </a>Skills</li>
-                    <li onClick={closeMenu} className='cursor-pointer'><a href="#work" className='text-xl'> </a>Work</li>
-                    <li onClick={closeMenu} className='cursor-pointer'><a href="#contact" className='text-xl '></a>Contact</li>
+                    <li onClick={closeMenu} className='cursor-pointer'><a href="#home" className='text-xl '>Home</a></li>
+                    <li onClick={closeMenu} className='cursor-pointer'><a href="#about" className='text-xl '>About me</a> </li>
+                    <li onClick={closeMenu} className='cursor-pointer'><a href="#skilss" className='text-xl'>Skills </a></li>
+                    <li onClick={closeMenu} className='cursor-pointer'><a href="#work" className='text-xl'>Work </a></li>
+                    <li onClick={closeMenu} className='cursor-pointer'><a href="#contact" className='text-xl '>Contact</a></li>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#contact" className=' border border-white rounded-2xl  px-4 py-2  cursor-pointer'>Contact me</a></li>
 
                 </ul>
