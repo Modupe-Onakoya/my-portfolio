@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className='flex items-center gap-5'>
                     {/* <button>  <Image src={assets.moon_icon} alt='' className='w-5 cursor-pointer' /> </button> */}
                     <a href="#contact" className='hidden md:block border border-gray-500 rounded-2xl text-gray-500 px-2 py-1 lg:text-md cursor-pointer'>Contact me</a>
-                    <button onClick={openMenu} >  <Image src={assets.menu_black} alt='' className='w-8 md:hidden' /> </button>
+                    <button onClick={openMenu} >  <Image src={assets.menu_black} alt='' className='w-4 md:hidden' /> </button>
 
                 </div>
 
