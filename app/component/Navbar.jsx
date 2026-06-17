@@ -25,7 +25,7 @@ const Navbar = () => {
                 <ul className='md:flex items-center lg:gap-10 md:gap-4 hidden  text-gray-500 md:rounded-lg md:bg-white'>
                     <li className='cursor-pointer '><a href="#home" className='xl:text-xl '>Home</a></li>
                     <li className='cursor-pointer'><a href="#about" className=' xl:text-xl'>About me</a> </li>
-                    <li className='cursor-pointer'><a href="#skilss" className='xl:text-xl '>Skills</a></li>
+                    <li className='cursor-pointer'><a href="#skill" className='xl:text-xl '>Skills</a></li>
                     <li className='cursor-pointer'><a href="#work" className='xl:text-xl '>Work</a></li>
                     <li className='cursor-pointer'><a href="#contact" className='xl:text-xl '>Contact</a></li>
                 </ul>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#home" className='text-xl '>Home</a></li>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#about" className='text-xl '>About me</a> </li>
-                    <li onClick={closeMenu} className='cursor-pointer'><a href="#skilss" className='text-xl'>Skills </a></li>
+                    <li onClick={closeMenu} className='cursor-pointer'><a href="#skill" className='text-xl'>Skills </a></li>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#work" className='text-xl'>Work </a></li>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#contact" className='text-xl '>Contact</a></li>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#contact" className=' border border-white rounded-2xl  px-4 py-2  cursor-pointer'>Contact me</a></li>

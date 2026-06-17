@@ -12,6 +12,13 @@ import send_icon from './send-icon.png'
 import linkedin from './linkedin.png'
 import github from './github.png'
 import email from './email.png'
+import twitter from './twitter.png'
+
+
+
+
+
+
 
 export const assets = {
     moon_icon,
@@ -24,28 +31,28 @@ export const assets = {
     work_3,
     work_4,
     header_bg_color,
-    send_icon, linkedin, email, github
+    send_icon, linkedin, email, github, twitter
 }
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Landing page',
+        description: 'Designed and developed a modern, responsive landing page focused on clear messaging, smooth user experience, and conversion-driven design.',
+        bgImage: '/work-1.jpg',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Real-Estate site',
+        description: 'Developed a responsive real estate platform that showcases properties with intuitive navigation, detailed listings, and a modern user interface.',
+        bgImage: '/work-2.jpg',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Nutrition site',
+        description: 'Developed a responsive real estate platform that showcases properties with intuitive navigation, detailed listings, and a modern user interface.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Music player site',
+        description: 'Created an interactive music website featuring a clean interface, engaging visuals, and a user-friendly experience for exploring music content.',
         bgImage: '/work-4.png',
     },
 
