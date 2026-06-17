@@ -30,9 +30,9 @@ const Navbar = () => {
                     <li className='cursor-pointer'><a href="#contact" className='xl:text-xl '>Contact</a></li>
                 </ul>
                 <div className='flex items-center gap-5'>
-                    {/* <button>  <Image src={assets.moon_icon} alt='' className='w-5 cursor-pointer' /> </button> */}
+                    <button>  <Image src={assets.moon_icon} alt='' className='w-5 cursor-pointer' /> </button>
                     <a href="#contact" className='hidden md:block border border-gray-500 rounded-2xl text-gray-500 px-4 py-2 lg:text-xl cursor-pointer'>Contact me</a>
-                    <button onClick={openMenu} className='z-50'>  <Image src={assets.menu_black} alt='' className='w-5 md:hidden cursor-pointer pointer-events-none' /> </button>
+                    <button>  <Image src={assets.menu_black} alt='' className='w-5 md:hidden cursor-pointer' onClick={openMenu} /> </button>
 
                 </div>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                 <ul ref={menuRef} className='flex flex-col fixed top-0 -right-64 h-screen bg-gray-500 py-10  items-center gap-5 md:hidden text-white z-10 w-45  transition duration-500'>
                     <div onClick={closeMenu} >
-                        <Image src={assets.close_white} className='w-4 absolute top-7 right-6 cursor-pointer' alt='' />
+                        <Image src={assets.close_black} className='w-4 absolute top-7 right-6 cursor-pointer' alt='' />
                     </div>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#home" className='text-xl '>Home</a></li>
                     <li onClick={closeMenu} className='cursor-pointer'><a href="#about" className='text-xl '>About me</a> </li>
