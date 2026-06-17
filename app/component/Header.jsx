@@ -4,11 +4,11 @@ import { assets } from '../asset/assets'
 
 const Header = () => {
     return (
-        <div className='px-[5%] w-full md:py-30 xl:py-40 border-b border-b-gray-300 ' id='home'>
+        <div className='px-[5%] w-full md:py-30 xl:py-40  border-b-gray-300 ' id='home'>
             <div className='hidden md:block w-full  '>
                 <div className='flex justify-between '>
                     <div >
-                        <h1 className='xl:max-w-3xl text-sm  font-bold xl:leading-18 mb-5 lg:leading-13 md:lg md:max-w-md'>Hi, I'm Onakoya Modupe — a Frontend Developer building clean, fast, and user-friendly web experiences.</h1>
+                        <h1 className='xl:max-w-3xl xl:text-[40px] font-bold xl:leading-18 mb-5 lg:leading-13 lg:text-[40px] lg:max-w-xl md:text-[23px] md:max-w-md'>Hi, I'm Onakoya Modupe — a Frontend Developer building clean, fast, and user-friendly web experiences.</h1>
 
                         <p className='text-gray-500 lg:max-w-xl xl:text-xl mb-5 lg:mb-5 md:max-w-md  md:text-[16px] xl:max-w-3xl '>I build accessible, performant interfaces with React, TypeScript, and modern tooling. I care deeply about the details that make products feel effortless to use.</p>
                         <button className='border border-gray-300 shadow-md w-fit px-6 rounded-lg py-2 flex gap-3 items-center '><a href="/Onakoya1.pdf" target="_blank" rel="noopener noreferrer">My resume</a> <Image src={assets.download_icon} alt='' className='w-5 h-5' /></button>

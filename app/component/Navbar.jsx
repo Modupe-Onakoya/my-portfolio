@@ -18,7 +18,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <nav className='w-full py-5 px-[5%] border border-b-gray-300 flex justify-between fixed z-10 pb-2 bg-white'>
+            <nav className='w-full py-5 px-[5%]  border-b-gray-300 flex justify-between fixed z-10 pb-2 bg-white'>
                 <div className='flex items-center gap-1'>
                     <p className='rounded-full text-white text-[10px] md:text-[12px] bg-black  w-8 h-8 flex justify-center items-center font-bold '>OM</p>
                     <h1 className='font-bold text-sm md:text-sm lg:text-xl'>Onakoya Modupe</h1>
