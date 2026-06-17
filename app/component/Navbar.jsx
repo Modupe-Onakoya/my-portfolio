@@ -39,7 +39,7 @@ const Navbar = () => {
 
                 {/* --mobile-- */}
 
-                <ul ref={menuRef} className='flex flex-col fixed top-0 -right-64 h-screen bg-gray-500 py-10  items-center gap-5 md:hidden text-white z-10 w-[45%]  transition duration-500'>
+                <ul ref={menuRef} className='flex flex-col fixed top-0 -right-64 h-screen bg-gray-500 py-10  items-center gap-5 md:hidden text-white z-10 w-[50%]  transition duration-500'>
                     <div onClick={closeMenu} >
                         <Image src={assets.close_white} className='w-4 absolute top-7 right-6 cursor-pointer' alt='' />
                     </div>
