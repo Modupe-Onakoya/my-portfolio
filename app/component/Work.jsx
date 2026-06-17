@@ -23,7 +23,7 @@ const Work = () => {
                     //     </div>
 
                     // </div>
-                    <div className='border rounded-lg border-gray-300 space-y-3'>
+                    <div className='border rounded-lg border-gray-300 space-y-3' key={index}>
                         <Image alt='' src={bgImage} width={500} height={50} className='rounded-lg h-h w-[100%]' />
                         <div className='px-5 py-5'>
                             <h2 className='font-bold text-lg py-2 '>{title}</h2>
