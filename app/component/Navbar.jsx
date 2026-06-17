@@ -18,21 +18,21 @@ const Navbar = () => {
     }
     return (
         <>
-            <nav className='w-full py-5 px-[5%]  border-b-gray-300 flex justify-between fixed z-10 pb-2 bg-white'>
+            <nav className='w-full py-5 px-[5%] border-b border-b-gray-300 flex justify-between fixed z-10 pb-2 bg-white'>
                 <div className='flex items-center gap-1'>
-                    <p className='rounded-full text-white text-[10px] md:text-[12px] bg-black  w-8 h-8 flex justify-center items-center font-bold '>OM</p>
-                    <h1 className='font-bold text-sm md:text-sm lg:text-xl'>Onakoya Modupe</h1>
+                    <p className='rounded-full text-white text-[10px]  bg-black w-6 h-6 flex justify-center items-center font-bold '>OM</p>
+                    <h1 className='font-bold text-sm md:text-sm lg:text-md'>Onakoya Modupe</h1>
                 </div>
                 <ul className='md:flex items-center lg:gap-10 md:gap-4 hidden  text-gray-500 md:rounded-lg md:bg-white'>
-                    <li className='cursor-pointer '><a href="#home" className='xl:text-xl '>Home</a></li>
-                    <li className='cursor-pointer'><a href="#about" className=' xl:text-xl'>About me</a> </li>
-                    <li className='cursor-pointer'><a href="#skill" className='xl:text-xl '>Skills</a></li>
-                    <li className='cursor-pointer'><a href="#work" className='xl:text-xl '>Work</a></li>
-                    <li className='cursor-pointer'><a href="#contact" className='xl:text-xl '>Contact</a></li>
+                    <li className='cursor-pointer '><a href="#home" className='text-md '>Home</a></li>
+                    <li className='cursor-pointer'><a href="#about" className=' text-md'>About me</a> </li>
+                    <li className='cursor-pointer'><a href="#skill" className='text-md '>Skills</a></li>
+                    <li className='cursor-pointer'><a href="#work" className='text-md '>Work</a></li>
+                    <li className='cursor-pointer'><a href="#contact" className='text-md '>Contact</a></li>
                 </ul>
                 <div className='flex items-center gap-5'>
                     {/* <button>  <Image src={assets.moon_icon} alt='' className='w-5 cursor-pointer' /> </button> */}
-                    <a href="#contact" className='hidden md:block border border-gray-500 rounded-2xl text-gray-500 px-4 py-2 lg:text-xl cursor-pointer'>Contact me</a>
+                    <a href="#contact" className='hidden md:block border border-gray-500 rounded-2xl text-gray-500 px-2 py-1 lg:text-md cursor-pointer'>Contact me</a>
                     <button onClick={openMenu} >  <Image src={assets.menu_black} alt='' className='w-8 md:hidden' /> </button>
 
                 </div>
