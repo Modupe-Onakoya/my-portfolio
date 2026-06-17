@@ -13,6 +13,8 @@ import linkedin from './linkedin.png'
 import github from './github.png'
 import email from './email.png'
 import twitter from './twitter.png'
+import close_white from './close-white.png'
+
 
 
 
@@ -31,7 +33,7 @@ export const assets = {
     work_3,
     work_4,
     header_bg_color,
-    send_icon, linkedin, email, github, twitter
+    send_icon, linkedin, email, github, twitter, close_white
 }
 
 export const workData = [

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Contact = () => {
     return (
-        <div className='px-[5%] text-center xl:space-y-5 space-y-3 scroll-mt-30 mt-30' id='contact' >
+        <div className='px-[5%] text-center xl:space-y-5 space-y-3 md:scroll-mt-30 max-sm:scrol-mt-5 mt-30' id='contact' >
             <h3 className='text-gray-500 '> GET IN TOUCH</h3>
             <h2 className='font-bold xl:text-2xl text-lg'>Let's build something great together </h2>
             <p className='xl:text-xl text-gray-500 text-sm'>I'm currently available  for freelance work and full time-roles. Have a project in mind or just want to say hello? My inbox is always open</p>

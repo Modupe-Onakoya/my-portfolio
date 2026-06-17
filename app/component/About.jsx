@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const About = () => {
     return (
-        <div id='about' className='px-[5%] py-30 scroll-mt-20 w-full'>
+        <div id='about' className='px-[5%] py-30 md:scroll-mt-20 w-full'>
             <div className='md:flex md:gap-10 '>
                 <div className='max-md:flex justify-center max-md:w-full'>
                     <Image src={assets.profile} alt='' className='xl:w-75 xl:h-75 xl:rounded-3xl md:w-85 md:h-85 w-75 h-75 md:w-75 md:h-60 rounded-lg max-sm:mb-5 lg:w-90 lg:h-80 ' />

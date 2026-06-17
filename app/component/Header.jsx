@@ -26,7 +26,7 @@ const Header = () => {
                             Hi, I'm Onakoya Modupe — a frontend developer building clean, fast web experiences.
                         </h2>
                         <p className='text-gray-500 text-[15px] mb-5 max-w-xl'>I build responsive and high-performing web applications using React, TypeScript, and modern technologies, with a strong focus on creating seamless user experiences.</p>
-                        <p className='border w-fit px-4 rounded-lg py-1 flex gap-3 items-center'>My resume <Image src={assets.download_icon} alt="" className='w-5 h-5' /></p>
+                        <p className='border w-fit px-4 rounded-lg py-1 flex gap-3 items-center'><a href="/Onakoya1.pdf" target="_blank" rel="noopener noreferrer">My resume</a> <Image src={assets.download_icon} alt='' className='w-5 h-5' /></p>
                     </div>
                     <div className=' flex justify-center w-full'>
 
