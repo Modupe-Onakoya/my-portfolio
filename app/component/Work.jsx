@@ -27,7 +27,7 @@ const Work = () => {
                         <Image alt='' src={bgImage} width={500} height={50} className='rounded-lg h-h w-[100%]' />
                         <div className='px-5 py-5'>
                             <h2 className='font-bold text-lg py-2 '>{title}</h2>
-                            <p className='text-gray-500 xl:text-[14px] text-sm'>{description}</p>
+                            <p className='text-gray-500 xl:text-[15px] text-sm'>{description}</p>
                         </div>
 
                     </div>
