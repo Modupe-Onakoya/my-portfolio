@@ -8,13 +8,17 @@ const Navbar = () => {
     const menuRef = useRef()
 
     const openMenu = () => {
-
-        menuRef.current.style.transform = "translateX(-16rem)"
+        alert('button clicked')
+        if (menuRef.current) {
+            menuRef.current.style.transform = "translateX(-16rem)"
+        } else {
+            alert('menuRef is null')
+        }
     }
 
     const closeMenu = () => {
 
-        menuRef.current.style.transform = "translateX(16rem)"
+        menuRef.current.style.transform = "translatex(16rem)"
     }
     return (
         <>
@@ -31,9 +35,9 @@ const Navbar = () => {
                     <li className='cursor-pointer'><a href="#contact" className='xl:text-xl '>Contact</a></li>
                 </ul>
                 <div className='flex items-center gap-5'>
-                    <button>  <Image src={assets.moon_icon} alt='' className='w-5 cursor-pointer' /> </button>
+                    {/* <button>  <Image src={assets.moon_icon} alt='' className='w-5 cursor-pointer' /> </button> */}
                     <a href="#contact" className='hidden md:block border border-gray-500 rounded-2xl text-gray-500 px-4 py-2 lg:text-xl cursor-pointer'>Contact me</a>
-                    <button onClick={openMenu} >  <Image src={assets.menu_black} alt='' className='w-6 md:hidden p-2' /> </button>
+                    <button onClick={openMenu} >  <Image src={assets.menu_black} alt='' className='w-10 md:hidden' /> </button>
 
                 </div>
 
